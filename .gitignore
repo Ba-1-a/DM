@@ -1,0 +1,9 @@
+# Mengabaikan file rahasia
+.env
+
+# Mengabaikan folder library (jika pakai Node.js)
+node_modules/
+
+# Mengabaikan folder library (jika pakai Python)
+__pycache__/
+venv/.env

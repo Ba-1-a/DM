@@ -1,0 +1,6 @@
+Flask
+PyNaCl
+PyGithub
+openai
+python-dotenv
+requests
