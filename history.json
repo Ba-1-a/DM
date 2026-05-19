@@ -23,6 +23,14 @@
     {
       "role": "assistant",
       "content": "Dengan skor Perception 24, mata Bee menangkap setiap detail di sekeliangnya. Di antara celah akar pohon raksasa, ia menemukan jejak kaki kecil berukuran manusia, tersembunyi di balik semak belukar. Jejak itu mengarah ke sebuah gua gelap yang samar terlihat di kejauhan, dan suara aneh seperti erangan samar terdengar dari dalam.  \n\nBee juga melihat sebuah batu bercahaya redup di dekat gua, yang tampak seperti sinyal atau penanda. Jika ia ingin menyelidiki lebih lanjut, aku bisa memicu mekanik berikut:  \n\n[ROLL: Investigation Check, 1d20+4]  \n\natau  \n\n[ROLL: Stealth Check, 1d20+10]"
+    },
+    {
+      "role": "user",
+      "content": "[SISTEM: Hasil dadu Investigation Check = 18. Langsung lanjutkan narasi konsekuensi secara dramatis!]"
+    },
+    {
+      "role": "assistant",
+      "content": "Dengan skor Investigation 18, Bee menemukan bahwa batu bercahaya itu adalah sebuah rune kuno yang terukir dengan simbol\u2011simbol ajaib. Rune tersebut tampak seperti penanda atau kunci untuk membuka gua di dekatnya. Jejak kaki kecil yang ia temukan sebelumnya ternyata milik makhluk kecil seperti goblin atau kobold, yang sering menggunakan rune semacam ini sebagai tanda jalan.  \n\nBee juga menemukan sisa\u2011sisa perapian kecil dan tulang\u2011tulang hewan di dekat gua, menunjukkan bahwa makhluk tersebut sering berkumpul di sana. Jika ia ingin mencoba membuka gua atau menyelidiki lebih lanjut, aku bisa memicu mekanik berikut:  \n\n[ROLL: Thieves\u2019 Tools Check, 1d20+10]  \n\natau  \n\n[ROLL: Arcane Sprint, 1d20+10]"
     }
   ]
 }
