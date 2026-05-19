@@ -1,0 +1,69 @@
+{
+  "player_name": "Kamu",
+  "character": {
+    "name": "B (Bee)",
+    "race": "Standard Human",
+    "class": "Rogue (Scout)",
+    "level": 5,
+    "hp_current": 30,
+    "hp_max": 38,
+    "ac": 16,
+    "initiative": 4,
+    "speed_base": 30,
+    "proficiency_bonus": 3
+  },
+  "stats": {
+    "STR": 11,
+    "DEX": 18,
+    "CON": 14,
+    "INT": 13,
+    "WIS": 15,
+    "CHA": 9
+  },
+  "modifiers": {
+    "STR_mod": 0,
+    "DEX_mod": 4,
+    "CON_mod": 2,
+    "INT_mod": 1,
+    "WIS_mod": 2,
+    "CHA_mod": -1
+  },
+  "skills_expertise": {
+    "Stealth": 10,
+    "Survival": 8,
+    "Nature": 7,
+    "Thieves_Tools": 10
+  },
+  "skills_normal": {
+    "Perception": 5,
+    "Investigation": 4,
+    "Acrobatics": 7
+  },
+  "combat": {
+    "main_weapon": "Legam (Shortsword) | +7 to hit | Damage 1d6+4 (Magical)",
+    "ranged_weapon": "Busur Katrol (Longbow) | +7 to hit | Damage 1d8+4",
+    "sneak_attack": "3d6"
+  },
+  "homebrew_features": [
+    "Arcane Sprint (+15 ft speed, no Stealth)",
+    "Arcane Edge (Legam is permanently magical)",
+    "Panah Arcanum (Bypass immunity, hanya ke imunitas, jika melawan resistant tetap dianggap physical)",
+    "Returning Legam",
+    "Legam Bercahaya (On/Off)"
+  ],
+  "equipment_special": [
+    "Owlbear Leather Armor",
+    "Monster Bracers (1x/LR: reduce physical damage 1d4)",
+    "Jammer Stone (3 pcs)",
+    "Liontin Elder",
+    "Bulu Ungu",
+    "Mawar (Kuda Betina)"
+  ],
+  "inventory_consumables": {
+    "panah_biasa": 40,
+    "panah_pelumpuh_dc11": 30,
+    "panah_racun_dc13": 30,
+    "gold": 118,
+    "silver": 5
+  }
+}
