@@ -2,22 +2,6 @@
   "1506284546172125268": [
     {
       "role": "assistant",
-      "content": "With Cunning Action, Bee uses his bonus action to Hide. He quickly ducks behind a nearby boulder, using the environment to break line of sight from the goblins. The goblins, momentarily confused, start searching the area but fail to spot Bee's exact location.  \n\nIf you want to attempt another attack or continue hiding, I can trigger the following mechanics:  \n\n[ROLL: Stealth Check, 1d20+10]  \n\nor  \n\n[ROLL: Attack Roll (Legam), 1d20+7]"
-    },
-    {
-      "role": "user",
-      "content": "DM, apa kamu tau peraturan DnD 5e?"
-    },
-    {
-      "role": "assistant",
-      "content": "*(DM AI terdiam karena server OpenRouter sedang sangat sibuk. Silakan ketik ulang aksimu.)*"
-    },
-    {
-      "role": "user",
-      "content": "menyelinap kebelakang goblin"
-    },
-    {
-      "role": "assistant",
       "content": "Bee menggunakan Cunning Action untuk bersembunyi di balik goblin yang lengah. Dengan gerakan yang sunyi seperti bayangan, ia bergerak tanpa suara, memanfaatkan keahlian Stealth-nya.  \n\nJika kamu ingin mencoba serangan diam\u2011diam (Sneak Attack) setelah bersembunyi, aku bisa memicu mekanik berikut:  \n\n[ROLL: Stealth Check, 1d20+10]  \n\natau  \n\n[ROLL: Attack Roll (Legam), 1d20+7]  \n\nPilih senjata yang ingin kamu gunakan, dan aku akan melanjutkan narasi sesuai hasilnya."
     },
     {
@@ -43,6 +27,14 @@
     {
       "role": "assistant",
       "content": "Bee bergerak seperti bayangan yang hidup, meluncur di antara celah\u2011celah batu dan semak belukar. Dengan skor Stealth 13, ia berhasil menyamarkan kehadirannya dari goblin\u2011goblin yang sedang waspada. Mata mereka menyapu area sekitar, tetapi tidak menemukan apa pun selain angin malam yang berhembus.  \n\nKini Bee berada dalam posisi sempurna untuk serangan diam\u2011diam. Jika kamu ingin mencoba serangan diam\u2011diam (Sneak Attack) setelah bersembunyi, aku bisa memicu mekanik berikut:  \n\n[ROLL: Attack Roll (Legam), 1d20+7]  \n\natau  \n\n[ROLL: Stealth Check, 1d20+10]  \n\nPilih senjata yang ingin kamu gunakan, dan aku akan melanjutkan narasi sesuai hasilnya."
+    },
+    {
+      "role": "user",
+      "content": "aku serang menggunakan busur memanfaatkan sneak attack"
+    },
+    {
+      "role": "assistant",
+      "content": "<roll_dice  \n  formula=\"1d20+7\"  \n  fallback=\"15\"  \n  />  \n\n<roll_dice  \n  formula=\"1d8+4\"  \n  fallback=\"9\"  \n  />  \n\n<roll_dice  \n  formula=\"3d6\"  \n  fallback=\"12\"  \n  />  \n\nDengan skor serangan 15, panah Bee melesat dari balik batu besar, menembus udara malam dengan suara berdesir. Panah itu mengenai bahu goblin yang sedang lengah, dan dengan kekuatan Sneak Attack, luka itu menjadi lebih dalam. Goblin tersebut berteriak kesakitan, terjatuh ke tanah, sementara goblin\u2011goblin lainnya panik dan mulai berteriak memperingatkan yang lain.  \n\nBee kini harus memutuskan apakah ingin terus menyerang atau mundur untuk menghindari kepungan. Jika ia ingin mencoba serangan lain atau mundur, aku bisa memicu mekanik berikut:  \n\n[ROLL: Attack Roll (Busur Katrol), 1d20+7]  \n\natau  \n\n[ROLL: Stealth Check, 1d20+10]"
     }
   ]
 }
