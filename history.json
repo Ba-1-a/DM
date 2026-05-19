@@ -2,14 +2,6 @@
   "1506284546172125268": [
     {
       "role": "assistant",
-      "content": "Bee menyiapkan diri untuk menyerang goblin\u2011goblin yang sedang lengah. Dengan Legam di tangan kanan dan busur katrol di punggung, ia memilih untuk menyerang dari jarak dekat agar bisa memanfaatkan serangan diam\u2011diam (Sneak Attack).  \n\nJika kamu ingin langsung menyerang, aku bisa memicu mekanik berikut:  \n\n[ROLL: Attack Roll (Legam), 1d20+7]  \n\natau  \n\n[ROLL: Attack Roll (Busur Katrol), 1d20+7]  \n\nPilih senjata yang ingin kamu gunakan, dan aku akan melanjutkan narasi sesuai hasilnya."
-    },
-    {
-      "role": "user",
-      "content": "[SISTEM: Hasil dadu Attack Roll (Legam) = 15. Langsung lanjutkan narasi konsekuensi secara dramatis!]"
-    },
-    {
-      "role": "assistant",
       "content": "<roll_dice  \n  formula=\"1d20+7\"  \n  fallback=\"15\"  \n  />  \n\nDengan skor serangan 15, Bee melompat dari balik semak dan mengayunkan Legam ke arah goblin terdekat. Bilah Legam memantulkan cahaya redup saat menembus udara, dan goblin tersebut berhasil menghindar dengan gerakan refleks yang cepat. Serangan Bee meleset, hanya memotong ujung telinga goblin yang berteriak kaget.  \n\nGoblin\u2011goblin lainnya langsung bereaksi, beberapa di antaranya mengambil senjata dan mulai berteriak memperingatkan yang lain. Bee kini harus memutuskan apakah ingin terus menyerang atau mundur untuk menghindari kepungan. Jika ia ingin mencoba serangan lain atau mundur, aku bisa memicu mekanik berikut:  \n\n[ROLL: Attack Roll (Legam), 1d20+7]  \n\natau  \n\n[ROLL: Stealth Check, 1d20+10]"
     },
     {
@@ -35,6 +27,14 @@
     {
       "role": "assistant",
       "content": "Bee menggunakan Cunning Action untuk bersembunyi di balik goblin yang lengah. Dengan gerakan yang sunyi seperti bayangan, ia bergerak tanpa suara, memanfaatkan keahlian Stealth-nya.  \n\nJika kamu ingin mencoba serangan diam\u2011diam (Sneak Attack) setelah bersembunyi, aku bisa memicu mekanik berikut:  \n\n[ROLL: Stealth Check, 1d20+10]  \n\natau  \n\n[ROLL: Attack Roll (Legam), 1d20+7]  \n\nPilih senjata yang ingin kamu gunakan, dan aku akan melanjutkan narasi sesuai hasilnya."
+    },
+    {
+      "role": "user",
+      "content": "aku serang goblin ini"
+    },
+    {
+      "role": "assistant",
+      "content": "<roll_dice  \n  formula=\"1d20+7\"  \n  fallback=\"15\"  \n  />  \n\nDengan skor serangan 15, Bee melompat dari balik goblin dan mengayunkan Legam ke arah goblin terdekat. Bilah Legam memantulkan cahaya redup saat menembus udara, dan goblin tersebut berhasil menghindar dengan gerakan refleks yang cepat. Serangan Bee meleset, hanya memotong ujung telinga goblin yang berteriak kaget.  \n\nGoblin\u2011goblin lainnya langsung bereaksi, beberapa di antaranya mengambil senjata dan mulai berteriak memperingatkan yang lain. Bee kini harus memutuskan apakah ingin terus menyerang atau mundur untuk menghindari kepungan. Jika ia ingin mencoba serangan lain atau mundur, aku bisa memicu mekanik berikut:  \n\n[ROLL: Attack Roll (Legam), 1d20+7]  \n\natau  \n\n[ROLL: Stealth Check, 1d20+10]"
     }
   ]
 }
