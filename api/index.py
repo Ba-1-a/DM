@@ -31,10 +31,6 @@ repo = gh.get_repo(GITHUB_REPO)
 
 # DAFTAR MODEL BARU: Dipilih yang paling cepat dan jarang antre
 DAFTAR_MODEL = [
-    "meta-llama/llama-3.3-70b-instruct:free",
-    "qwen/qwen-2.5-coder-32b-instruct:free",
-    "mistralai/mistral-7b-instruct:free",
-    "gemini-2.5-pro:free",
     "openrouter/owl-alpha"
 ]
 
