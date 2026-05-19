@@ -109,7 +109,7 @@ TUGASMU:
 4. Gunakan bahasa Indonesia."""
 
 # --- 4. ENDPOINT WEBHOOK UTAMA ---
-@app.route('/api/interactions', methods=['POST'])
+@app.route('/api', methods=['POST'])
 def interactions():
     if not verifikasi_request_discord(request):
         return jsonify({"error": "Tanda tangan tidak valid"}), 401
