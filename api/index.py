@@ -2,7 +2,6 @@ import json
 import os
 import re
 import random
-import threading
 import requests
 from flask import Flask, request, jsonify
 from nacl.signing import VerifyKey
@@ -48,28 +47,18 @@ def ambil_data_dari_github(nama_file):
 def simpan_data_ke_github(nama_file, data, sha, pesan_commit="Update data"):
     try:
         konten_baru = json.dumps(data, indent=2)
-        if sha:
-            repo.update_file(nama_file, pesan_commit, konten_baru, sha)
-        else:
-            repo.create_file(nama_file, pesan_commit, konten_baru)
+        if sha: repo.update_file(nama_file, pesan_commit, konten_baru, sha)
+        else: repo.create_file(nama_file, pesan_commit, konten_baru)
         return True
-    except Exception as e:
-        print(f"Gagal menulis ke GitHub: {e}")
-        return False
+    except Exception as e: return False
 
 def panggil_ai_dengan_fallback(messages):
     for model in DAFTAR_MODEL:
         try:
-            response = ai_client.chat.completions.create(
-                model=model,
-                messages=messages,
-                timeout=5 
-            )
+            response = ai_client.chat.completions.create(model=model, messages=messages, timeout=15)
             konten = response.choices[0].message.content
-            if konten:
-                return konten, model
-        except Exception:
-            continue
+            if konten: return konten, model
+        except Exception: continue
     return "*(DM AI terdiam karena OpenRouter sibuk. Silakan coba lagi.)*", None
 
 def ambil_system_prompt(char_context):
@@ -85,9 +74,8 @@ TUGASMU:
 4. Gunakan bahasa Indonesia."""
 
 # =========================================================================
-# FUNGSI PEKERJA BAYANGAN (BACKGROUND THREAD) UNTUK MENGHINDARI 3 DETIK
+# FUNGSI PEKERJA BAYANGAN
 # =========================================================================
-
 def background_aksi(app_id, token, channel_id, tindakan):
     char_data, char_sha = ambil_data_dari_github("B.json")
     history_data, hist_sha = ambil_data_dari_github("history.json")
@@ -116,17 +104,10 @@ def background_aksi(app_id, token, channel_id, tindakan):
         clean_content = re.sub(r'\[ROLL:\s*(.+?),\s*(.+?)\]', '', jawaban_ai, flags=re.IGNORECASE).strip()
         
         payload_patch["content"] = clean_content
-        payload_patch["components"] = [{
-            "type": 1,
-            "components": [{
-                "type": 2, "style": 3, "label": f"Kocok Dadu {check_name} 🎲", "custom_id": f"roll|{check_name}|{dice_formula}"
-            }]
-        }]
+        payload_patch["components"] = [{"type": 1, "components": [{"type": 2, "style": 3, "label": f"Kocok Dadu {check_name} 🎲", "custom_id": f"roll|{check_name}|{dice_formula}"}]}]
 
-    # Edit pesan "Sedang berpikir..." menjadi narasi utuh
     url = f"https://discord.com/api/v10/webhooks/{app_id}/{token}/messages/@original"
     requests.patch(url, json=payload_patch)
-
 
 def background_roll(app_id, token, channel_id, user_name, check_name, dice_formula):
     clean_formula = dice_formula.replace(" ", "")
@@ -149,7 +130,7 @@ def background_roll(app_id, token, channel_id, user_name, check_name, dice_formu
     char_data, char_sha = ambil_data_dari_github("B.json")
     history_data, hist_sha = ambil_data_dari_github("history.json")
 
-    prompt = f"[SISTEM: Hasil dadu {check_name} = {final_total}. Langsung lanjutkan narasi konsekuensi aksi ini secara dramatis!]"
+    prompt = f"[SISTEM: Hasil dadu {check_name} = {final_total}. Langsung lanjutkan narasi konsekuensi secara dramatis!]"
     
     channel_history = history_data.get(channel_id, [])
     channel_history.append({"role": "user", "content": prompt})
@@ -175,25 +156,32 @@ def background_roll(app_id, token, channel_id, user_name, check_name, dice_formu
         clean_content = re.sub(r'\[ROLL:\s*(.+?),\s*(.+?)\]', '', jawaban_akhir, flags=re.IGNORECASE).strip()
         
         payload_patch["content"] = clean_content
-        payload_patch["components"] = [{
-            "type": 1,
-            "components": [{
-                "type": 2, "style": 3, "label": f"Kocok Dadu {next_check} 🎲", "custom_id": f"roll|{next_check}|{next_formula}"
-            }]
-        }]
+        payload_patch["components"] = [{"type": 1, "components": [{"type": 2, "style": 3, "label": f"Kocok Dadu {next_check} 🎲", "custom_id": f"roll|{next_check}|{next_formula}"}]}]
 
     url = f"https://discord.com/api/v10/webhooks/{app_id}/{token}/messages/@original"
     requests.patch(url, json=payload_patch)
 
+# =========================================================================
+# JALUR WORKER (MESIN KEDUA VERCEL)
+# =========================================================================
+@app.route('/api/worker', methods=['POST'])
+def worker_route():
+    data = request.json
+    task = data.get('task')
+    if task == "aksi":
+        background_aksi(data['app_id'], data['token'], data['channel_id'], data['tindakan'])
+    elif task == "roll":
+        background_roll(data['app_id'], data['token'], data['channel_id'], data['user_name'], data['check_name'], data['dice_formula'])
+    return "OK", 200
 
 # =========================================================================
-# ENDPOINT WEBHOOK UTAMA (SAPU JAGAT)
+# ENDPOINT WEBHOOK UTAMA
 # =========================================================================
 @app.route('/', defaults={'path': ''}, methods=['POST', 'GET'])
 @app.route('/<path:path>', methods=['POST', 'GET'])
 def interactions(path):
     if request.method == 'GET':
-        return "🤖 Bot Vercel Aktif dan Siap Menerima Perintah!", 200
+        return "🤖 Bot Vercel Aktif!", 200
 
     signature = request.headers.get('X-Signature-Ed25519')
     timestamp = request.headers.get('X-Signature-Timestamp')
@@ -203,16 +191,13 @@ def interactions(path):
     try:
         verify_key = VerifyKey(bytes.fromhex(DISCORD_PUBLIC_KEY))
         verify_key.verify(f"{timestamp}{body}".encode(), bytes.fromhex(signature))
-    except BadSignatureError:
-        return jsonify({"error": "Bad sig"}), 401
+    except BadSignatureError: return jsonify({"error": "Bad sig"}), 401
 
     payload = request.json
     interaction_type = payload.get('type')
 
-    if interaction_type == 1:
-        return jsonify({"type": 1})
+    if interaction_type == 1: return jsonify({"type": 1})
 
-    # --- JALUR A: SLASH COMMANDS ---
     if interaction_type == 2:
         command_name = payload['data']['name']
         channel_id = str(payload['channel_id'])
@@ -230,28 +215,21 @@ def interactions(path):
             return jsonify({"type": 4, "data": {"content": pesan}})
 
         elif command_name == "luka":
-            # BUG FIX: Gunakan absolut agar angka negatif tetap jadi pengurangan
             damage = abs(payload['data']['options'][0]['value'])
             char_data, char_sha = ambil_data_dari_github("B.json")
-            
             hp_lama = char_data['character']['hp_current']
             char_data['character']['hp_current'] -= damage
-            hp_baru = char_data['character']['hp_current']
-
             simpan_data_ke_github("B.json", char_data, char_sha, f"Bee terkena {damage} damage")
-            return jsonify({
-                "type": 4,
-                "data": {"content": f"🗡️ **Bee terkena {damage} damage!** (HP: {hp_lama} ➔ {hp_baru})\n☁️ *Status auto-saved ke GitHub!*"}
-            })
+            return jsonify({"type": 4, "data": {"content": f"🗡️ **Bee terkena {damage} damage!** (HP: {hp_lama} ➔ {char_data['character']['hp_current']})\n☁️ *Status auto-saved ke GitHub!*"}})
 
         elif command_name == "aksi":
             tindakan = payload['data']['options'][0]['value']
-            # JALANKAN PROSES LAMA DI BACKGROUND!
-            threading.Thread(target=background_aksi, args=(app_id, token, channel_id, tindakan)).start()
-            # KEMBALIKAN TYPE 5 (DEFERRED) SECARA INSTAN KE DISCORD
+            # TRIK KLONING: Panggil mesin kedua, lalu langsung putus teleponnya dalam 0.5 detik!
+            try:
+                requests.post(f"{request.host_url}api/worker", json={"task": "aksi", "app_id": app_id, "token": token, "channel_id": channel_id, "tindakan": tindakan}, timeout=0.5)
+            except requests.exceptions.ReadTimeout: pass 
             return jsonify({"type": 5})
 
-    # --- JALUR B: INTERAKSI TOMBOL ---
     if interaction_type == 3:
         custom_id = payload['data']['custom_id']
         channel_id = str(payload['channel_id'])
@@ -261,9 +239,9 @@ def interactions(path):
 
         if custom_id.startswith("roll|"):
             _, check_name, dice_formula = custom_id.split("|")
-            # JALANKAN PROSES LAMA DI BACKGROUND!
-            threading.Thread(target=background_roll, args=(app_id, token, channel_id, user_name, check_name, dice_formula)).start()
-            # KEMBALIKAN TYPE 5 SECARA INSTAN
+            try:
+                requests.post(f"{request.host_url}api/worker", json={"task": "roll", "app_id": app_id, "token": token, "channel_id": channel_id, "user_name": user_name, "check_name": check_name, "dice_formula": dice_formula}, timeout=0.5)
+            except requests.exceptions.ReadTimeout: pass
             return jsonify({"type": 5})
 
     return jsonify({"error": "Unknown type"}), 400
