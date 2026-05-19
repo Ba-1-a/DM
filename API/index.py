@@ -108,16 +108,32 @@ TUGASMU:
    Contoh: [ROLL: Stealth Check, 1d20+10]
 4. Gunakan bahasa Indonesia."""
 
-# --- 4. ENDPOINT WEBHOOK UTAMA ---
-@app.route('/api', methods=['POST'])
-def interactions():
-    if not verifikasi_request_discord(request):
+# --- 4. ENDPOINT WEBHOOK UTAMA (SAPU JAGAT) ---
+@app.route('/', defaults={'path': ''}, methods=['POST', 'GET'])
+@app.route('/<path:path>', methods=['POST', 'GET'])
+def interactions(path):
+    # Jika URL dibuka lewat browser biasa (GET), tampilkan ini agar kita tahu bot hidup
+    if request.method == 'GET':
+        return "🤖 Bot Vercel Aktif dan Siap Menerima Perintah!", 200
+
+    # Validasi bahwa request benar-benar dari Discord
+    signature = request.headers.get('X-Signature-Ed25519')
+    timestamp = request.headers.get('X-Signature-Timestamp')
+    body = request.get_data(as_text=True) # <-- Cara teraman membaca data di Flask
+
+    if not signature or not timestamp:
+        return jsonify({"error": "Tanda tangan tidak lengkap"}), 401
+    
+    try:
+        verify_key = VerifyKey(bytes.fromhex(DISCORD_PUBLIC_KEY))
+        verify_key.verify(f"{timestamp}{body}".encode(), bytes.fromhex(signature))
+    except BadSignatureError:
         return jsonify({"error": "Tanda tangan tidak valid"}), 401
 
     payload = request.json
     interaction_type = payload.get('type')
 
-    # Discord PING-PONG (Wajib untuk validasi Discord)
+    # Discord PING-PONG (Wajib)
     if interaction_type == 1:
         return jsonify({"type": 1})
 
@@ -168,8 +184,6 @@ def interactions():
             simpan_data_ke_github("history.json", history_data, hist_sha, "Update history chat")
 
             match = re.search(r'\[ROLL:\s*(.+?),\s*(.+?)\]', jawaban_ai, re.IGNORECASE)
-            
-            # Tambahkan info model yang terpakai di bawah narasi (opsional, bisa dihapus jika mengganggu)
             if model_terpilih:
                 jawaban_ai += f"\n*(Merespons menggunakan: {model_terpilih})*"
 
