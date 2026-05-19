@@ -29,12 +29,13 @@ auth_gh = Auth.Token(GITHUB_TOKEN)
 gh = Github(auth=auth_gh)
 repo = gh.get_repo(GITHUB_REPO)
 
+# DAFTAR MODEL BARU: Dipilih yang paling cepat dan jarang antre
 DAFTAR_MODEL = [
     "meta-llama/llama-3.3-70b-instruct:free",
-    "qwen/qwen3-next-80b-a3b-instruct:free",
-    "deepseek/deepseek-v4-flash:free",
-    "nvidia/nemotron-3-super-120b-a12b:free",
-    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+    "qwen/qwen-2.5-coder-32b-instruct:free",
+    "mistralai/mistral-7b-instruct:free",
+    "gemini-2.5-pro:free",
+    "openrouter/owl-alpha"
 ]
 
 def ambil_data_dari_github(nama_file):
@@ -54,12 +55,20 @@ def simpan_data_ke_github(nama_file, data, sha, pesan_commit="Update data"):
 
 def panggil_ai_dengan_fallback(messages):
     for model in DAFTAR_MODEL:
+        print(f"[AI] Sedang mencoba menghubungi {model}...")
         try:
-            response = ai_client.chat.completions.create(model=model, messages=messages, timeout=15)
+            # Waktu tunggu diturunkan jadi 10 detik agar tidak menabrak batas 60 detik Vercel
+            response = ai_client.chat.completions.create(model=model, messages=messages, timeout=10)
             konten = response.choices[0].message.content
-            if konten: return konten, model
-        except Exception: continue
-    return "*(DM AI terdiam karena OpenRouter sibuk. Silakan coba lagi.)*", None
+            if konten: 
+                print(f"[AI] SUKSES menggunakan {model}!")
+                return konten, model
+        except Exception as e: 
+            print(f"[AI] GAGAL {model}: {e}")
+            continue
+            
+    # Jika dalam 40 detik (10s x 4 model) semua gagal, kirim pesan darurat ini:
+    return "*(DM AI terdiam karena server OpenRouter sedang sangat sibuk. Silakan ketik ulang aksimu.)*", None
 
 def ambil_system_prompt(char_context):
     return f"""Kamu adalah Dungeon Master D&D 5e yang seru, gelap, sastrawi, dan deskriptif.
