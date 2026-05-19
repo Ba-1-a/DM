@@ -15,6 +15,14 @@
     {
       "role": "assistant",
       "content": "Bee melangkah perlahan di antara pohon\u2011pohon raksasa yang menjulang tinggi, langkahnya nyaris tanpa suara di atas lapisan daun kering yang remuk di bawah kakinya. Udara lembap hutan malam menyelimuti tubuhnya, dan aroma tanah basah serta lumut yang samar menyengat hidung. Di kejauhan, suara jangkrik dan desir angin malam terdengar samar, menciptakan simfoni alam yang menenangkan.  \n\nSetiap langkah Bee membawa ia lebih dalam ke dalam hutan, dan ia tetap waspada, mata tajam mengawasi setiap gerakan di sekelilingnya. Kini, dengan Arcane Sprint siap digunakan, ia bisa meningkatkan kecepatan hingga +15 ft dan bergerak tanpa mengorbankan Stealth, sementara Legam Bercahaya bisa dinyalakan kapan saja untuk menerangi jalan gelap.  \n\nJika Bee ingin memeriksa area sekitar atau mencari jejak, aku bisa memicu mekanik berikut:  \n\n[ROLL: Perception Check, 1d20+5]  \n\natau  \n\n[ROLL: Stealth Check, 1d20+10]"
+    },
+    {
+      "role": "user",
+      "content": "[SISTEM: Hasil dadu Perception Check = 24. Langsung lanjutkan narasi konsekuensi secara dramatis!]"
+    },
+    {
+      "role": "assistant",
+      "content": "Dengan skor Perception 24, mata Bee menangkap setiap detail di sekeliangnya. Di antara celah akar pohon raksasa, ia menemukan jejak kaki kecil berukuran manusia, tersembunyi di balik semak belukar. Jejak itu mengarah ke sebuah gua gelap yang samar terlihat di kejauhan, dan suara aneh seperti erangan samar terdengar dari dalam.  \n\nBee juga melihat sebuah batu bercahaya redup di dekat gua, yang tampak seperti sinyal atau penanda. Jika ia ingin menyelidiki lebih lanjut, aku bisa memicu mekanik berikut:  \n\n[ROLL: Investigation Check, 1d20+4]  \n\natau  \n\n[ROLL: Stealth Check, 1d20+10]"
     }
   ]
 }
