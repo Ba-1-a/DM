@@ -35,6 +35,14 @@
     {
       "role": "assistant",
       "content": "Bee menggunakan Cunning Action untuk bersembunyi lagi. Dengan gerakan yang cepat dan sunyi, ia meluncur ke balik batu besar di dekatnya, memanfaatkan lingkungan untuk memecah garis pandang dari goblin\u2011goblin yang sedang mencari\u2011cari.  \n\nJika kamu ingin mencoba serangan diam\u2011diam (Sneak Attack) setelah bersembunyi, aku bisa memicu mekanik berikut:  \n\n[ROLL: Stealth Check, 1d20+10]  \n\natau  \n\n[ROLL: Attack Roll (Legam), 1d20+7]  \n\nPilih senjata yang ingin kamu gunakan, dan aku akan melanjutkan narasi sesuai hasilnya."
+    },
+    {
+      "role": "user",
+      "content": "[SISTEM: Hasil dadu Stealth Check = 13. Langsung lanjutkan narasi konsekuensi secara dramatis!]"
+    },
+    {
+      "role": "assistant",
+      "content": "Bee bergerak seperti bayangan yang hidup, meluncur di antara celah\u2011celah batu dan semak belukar. Dengan skor Stealth 13, ia berhasil menyamarkan kehadirannya dari goblin\u2011goblin yang sedang waspada. Mata mereka menyapu area sekitar, tetapi tidak menemukan apa pun selain angin malam yang berhembus.  \n\nKini Bee berada dalam posisi sempurna untuk serangan diam\u2011diam. Jika kamu ingin mencoba serangan diam\u2011diam (Sneak Attack) setelah bersembunyi, aku bisa memicu mekanik berikut:  \n\n[ROLL: Attack Roll (Legam), 1d20+7]  \n\natau  \n\n[ROLL: Stealth Check, 1d20+10]  \n\nPilih senjata yang ingin kamu gunakan, dan aku akan melanjutkan narasi sesuai hasilnya."
     }
   ]
 }
