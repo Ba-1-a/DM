@@ -2,14 +2,6 @@
   "1506284546172125268": [
     {
       "role": "assistant",
-      "content": "Dengan gerakan lincah dan penuh kehati-hatian, Bee mulai menjelajahi area sekitar gua. Ia bergerak di antara pohon\u2011pohon raksasa, memeriksa setiap sudut dan celah dengan mata tajam. Di balik semak belukar, ia menemukan jejak\u2011jejak lain yang menunjukkan bahwa makhluk kecil seperti goblin atau kobold sering beraktivitas di sini.  \n\nBee juga menemukan sebuah jalur sempit yang mengarah ke sisi lain gua, mungkin digunakan sebagai jalan keluar atau jalur pengintaian oleh makhluk tersebut. Suara erangan samar dari dalam gua masih terdengar, dan ia merasa ada sesuatu yang tidak beres di sana. Jika ia ingin menyelidiki lebih lanjut atau mencoba membuka gua, aku bisa memicu mekanik berikut:  \n\n[ROLL: Stealth Check, 1d20+10]  \n\natau  \n\n[ROLL: Thieves\u2019 Tools Check, 1d20+10]"
-    },
-    {
-      "role": "user",
-      "content": "[SISTEM: Hasil dadu Stealth Check = 28. Langsung lanjutkan narasi konsekuensi secara dramatis!]"
-    },
-    {
-      "role": "assistant",
       "content": "Dengan skor Stealth 28, Bee bergerak seperti bayangan yang menyatu dengan kegelapan malam. Setiap langkahnya nyaris tanpa suara, dan ia berhasil mendekati gua tanpa terdeteksi oleh makhluk di dalamnya. Dari balik celah semak, ia mengamati sekelompok goblin yang sedang berkumpul di dekat gua, sibuk memeriksa rune bercahaya yang ditempel di dinding batu.  \n\nBee juga menemukan bahwa jalur sempit yang ia temukan sebelumnya memang mengarah ke sisi lain gua, dan tampak seperti jalan keluar yang jarang digunakan. Jika ia ingin mencoba membuka gua atau menyelidiki lebih lanjut, aku bisa memicu mekanik berikut:  \n\n[ROLL: Thieves\u2019 Tools Check, 1d20+10]  \n\natau  \n\n[ROLL: Arcane Sprint, 1d20+10]"
     },
     {
@@ -35,6 +27,14 @@
     {
       "role": "assistant",
       "content": "With Cunning Action, Bee uses his bonus action to Hide. He quickly ducks behind a nearby boulder, using the environment to break line of sight from the goblins. The goblins, momentarily confused, start searching the area but fail to spot Bee's exact location.  \n\nIf you want to attempt another attack or continue hiding, I can trigger the following mechanics:  \n\n[ROLL: Stealth Check, 1d20+10]  \n\nor  \n\n[ROLL: Attack Roll (Legam), 1d20+7]"
+    },
+    {
+      "role": "user",
+      "content": "DM, apa kamu tau peraturan DnD 5e?"
+    },
+    {
+      "role": "assistant",
+      "content": "*(DM AI terdiam karena server OpenRouter sedang sangat sibuk. Silakan ketik ulang aksimu.)*"
     }
   ]
 }
