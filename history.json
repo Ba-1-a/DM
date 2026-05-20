@@ -35,6 +35,14 @@
     {
       "role": "assistant",
       "content": "Bee merespons dengan insting seorang Scout yang terlatih.\n\nTanpa ragu, B merosot ke posisi rendah, tubuhnya menyatu dengan akar pohon oak raksasa yang menjulang di sampingnya. Jari-jari yang gesit menarik Mawar perlahan \u2014 kuda betina itu, terbiasa dengan situasi seperti ini, menundukkan kepatuhan dan bergerak tanpa suara ke balik semak tebal.\n\nB menarik napas dalam, lalu menghembuskannya perlahan.\n\nKabut menjadi sekutu.\n\nDalam hitungan detik, Bee menghilang. Bukan secara literal \u2014 tetapi kehadirannya memudar begitu dalam ke dalam lanskap hutan hingga bahkan mata yang paling tajam pun akan kesulitan menembus ilusi itu. Daun-daun kering di sekitarnya tidak bergerak. Tidak ada jejak. Tidak ada suara.\n\nHanya kabut yang bergulung.\n\nDan dari arah tenggara, suara langkah kaki itu semakin dekat.\n\n*Duduk. Menunggu. Mengamati.*\n\n---\n\n[ROLL: Stealth Check, 1d20+10]"
+    },
+    {
+      "role": "user",
+      "content": "[SISTEM: Hasil dadu Stealth Check = 20. Langsung lanjutkan narasi konsekuensi secara dramatis!]"
+    },
+    {
+      "role": "assistant",
+      "content": "*(DM AI terdiam karena server OpenRouter sedang sangat sibuk. Silakan ketik ulang aksimu.)*"
     }
   ]
 }
