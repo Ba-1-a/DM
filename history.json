@@ -43,6 +43,14 @@
     {
       "role": "assistant",
       "content": "*(DM AI terdiam karena server OpenRouter sedang sangat sibuk. Silakan ketik ulang aksimu.)*"
+    },
+    {
+      "role": "user",
+      "content": "[SISTEM: Hasil dadu Stealth Check = 13. Langsung lanjutkan narasi konsekuensi secara dramatis!]"
+    },
+    {
+      "role": "assistant",
+      "content": "**Natural 20.**\n\nSempurna.\n\nBee tidak hanya bersembunyi \u2014 B *menjadi* hutan itu sendiri.\n\nKabut tebal menyelimuti tubuhnya seperti selimut yang hidup, setiap hembusan angin menyapu sisa-sisa kehadiran manusia yang mungkin tersisa. Mawar, kuda setia yang telah menempuh ratusan mil bersama tuannya, membeku di balik semak \u2014 napasnya pelan, matanya setengah tertutup, seolah bahkan binatang itu pun memilih untuk berpura-pura menjadi batu.\n\nDan kemudian mereka muncul.\n\nDua sosok besar melangkah keluar dari kabut. **Bugbear.** Masing-masing setinggi tujuh kaki, berbulu lebat, membawa kapak perang yang masih bernoda darah kering. Mata kuning mereka menyapu hutan dengan waspada \u2014 tetapi kabut terlalu tebal, dan Bee terlalu *tak terlihat*.\n\nYang satu menggonggong dalam bahasa kasar: *\"Bau darah... tapi tidak ada mayat.\"*\n\nYang lain mengendus udara, menggeram pelan.\n\nMereka berjalan tepat melewati pohon tempat B bersembunyi.\n\nTiga kaki. Dua kaki. Satu kaki.\n\nBee tidak bernapas.\n\nDan mereka berlalu... menghilang ke dalam kabut di arah barat.\n\nBee menunggu tiga hitungan jantung sebelum akhirnya menghembuskan napas.\n\n---\n\n**Situasi:**\n- Dua Bugbear bergerak ke arah barat\n- B dan Mawar aman, posisi tersembunyi\n- Kabut masih tebal \u2014 visibilitas rendah\n\n**Apa yang ingin B lakukan?**\n1. **Mengikuti** \u2014 melacak jejak Bugbear dari jarak aman\n2. **Menyelidiki area** \u2014 mencari tahu asal bau darah yang mereka sebut\n3. **Mundur** \u2014 menjauh dari jalur Bugbear\n4. **Lainnya?**"
     }
   ]
 }
