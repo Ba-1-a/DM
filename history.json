@@ -2,14 +2,6 @@
   "1506284546172125268": [
     {
       "role": "assistant",
-      "content": "# \ud83c\udf3f Tentu, Silakan!\n\nSebagai Dungeon Master, aku bisa bertanya untuk membantu Bee membuat keputusan. Berikut beberapa pertanyaan yang bisa membantu:\n\n1. **Tujuan utama Bee:** Apakah Bee memiliki misi atau tujuan spesifik yang sedang dikejar? Atau ia hanya menjelajah demi petualangan?\n\n2. **Latar belakang:** Apakah Bee memiliki latar belakang tertentu yang memengaruhi tindakannya? Misalnya, apakah ia sedang melarikan diri dari sesuatu, atau mencari seseorang?\n\n3. **Hubungan dengan goblin:** Apakah Bee memiliki alasan khusus untuk menghindari atau mengejar goblin\u2011goblin semalam?\n\n4. **Kondisi mental:** Bagaimana perasaan Bee saat ini? Apakah ia merasa waspada, penasaran, atau mungkin sedikit takut?\n\n5. **Prioritas:** Apakah Bee lebih memprioritaskan keselamatan, eksplorasi, atau mungkin mencari harta karun?\n\nJawab salah satu atau semua pertanyaan ini, dan aku akan menyesuaikan narasi serta pilihan yang tersedia untuk Bee! \ud83c\udfb2"
-    },
-    {
-      "role": "user",
-      "content": "rulebook apa yang kamu pakai?"
-    },
-    {
-      "role": "assistant",
       "content": "# \ud83d\udcd6 Rulebook OWL\n\nOWL menggunakan **D&D 5th Edition (5e)** sebagai rulebook utama, dengan beberapa penyesuaian homebrew yang sudah tercantum di sheet karaktermu.\n\n**Sumber utama:**\n- **Player's Handbook (PHB)** \u2014 aturan dasar\n- **Dungeon Master's Guide (DMG)** \u2014 panduan DM\n- **Monster Manual (MM)** \u2014 stat monster\n\n**Homebrew yang berlaku:**\n- Arcane Sprint (+15 ft speed, no Stealth)\n- Arcane Edge (Legam is permanently magical)\n- Panah Arcanum (Bypass immunity, hanya ke imunitas, jika melawan resistant tetap dianggap physical)\n- Returning Legam\n- Legam Bercahaya (On/Off)\n\nJika ada pertanyaan tentang aturan spesifik, silakan tanyakan! \ud83c\udfb2"
     },
     {
@@ -35,6 +27,14 @@
     {
       "role": "assistant",
       "content": "# \ud83d\udcca Status Bee \u2014 Updated\n\nTerima kasih atas koreksinya! Berikut analisis yang diperbarui:\n\n---\n\n## \u2705 **Sesuai Rulebook:**\n\n**Ability Scores & Modifiers:**\n- STR 11 (+0) \u2713\n- DEX 18 (+4) \u2713\n- CON 14 (+2) \u2713\n- INT 13 (+1) \u2713\n- WIS 15 (+2) \u2713\n- CHA 9 (-1) \u2713\n\n**HP:**\n- Rogue Hit Die: d8\n- Level 5: 8 + 4 \u00d7 (1d8+2) = 8 + 4 \u00d7 (avg 6.5) = 34 HP (rata-rata)\n- **38 HP** \u2014 sedikit di atas rata-rata (mungkin rolled high)\n\n**AC:**\n- Owlbear Leather Armor (homebrew) = **16** \u2713\n\n**Proficiency Bonus:**\n- Level 5 = **+3** \u2713\n\n**Initiative:**\n- DEX mod = **+4** \u2713\n\n**Speed:**\n- Human base = **30 ft** \u2713\n\n**Sneak Attack:**\n- Level 5 = **3d6** \u2713\n\n**Skills:**\n- Rogue gets 4 skills + 2 from Scout = 6 skills\n- Expertise in 4 skills \u2713\n- Stealth +10 (DEX + Prof \u00d72) \u2713\n- Survival +8 (WIS + Prof \u00d72) \u2713\n- Nature +7 (INT + Prof \u00d72) \u2713\n- Thieves' Tools +10 (DEX + Prof \u00d72) \u2713\n- Perception +5 (WIS + Prof) \u2713\n- Investigation +4 (INT + Prof) \u2713\n- Acrobatics +7 (DEX + Prof) \u2713\n\n**Weapons:**\n- Shortsword: 1d6+4 (DEX) \u2713\n- Longbow: 1d8+4 (DEX) \u2713\n- Attack bonus: +7 (DEX + Prof) \u2713\n\n**Languages:**\n- Common \u2713\n- Sylvan \u2713\n\n**ASI Level 4:**\n- +2 DEX (16\u219218) \u2713\n\n---\n\n## \u26a0\ufe0f **Homebrew Items:**\n\n1. **Owlbear Leather Armor** \u2014 AC 16 (setara studded leather +2 atau homebrew)\n2. **Monster Bracers** \u2014 1x/LR reduce physical damage 1d4\n3. **Jammer Stone (3 pcs)** \u2014 efek?\n4. **Liontin Elder** \u2014 efek?\n5. **Bulu Ungu** \u2014 efek?\n6. **Mawar (Kuda Betina)** \u2014 kuda? Atau item lain?\n\n---\n\n## \u2753 **Pertanyaan:**\n\n1. Apakah **Owlbear Leather Armor** memberikan stealth disadvantage seperti hide armor? Atau tidak?\n2. Apa efek dari **Jammer Stone**, **Liontin Elder**, dan **Bulu Ungu**?\n3. Apakah **Mawar** adalah kuda betina? Atau item lain?\n\nJawab pertanyaan ini, dan aku akan memperbarui sheet-mu! \ud83c\udfb2"
+    },
+    {
+      "role": "user",
+      "content": "jawaban untuk pertanyaan, 1. Dari B telah lama tinggal di hutan dan mendengar daun , angin dan hutan itu sendiri"
+    },
+    {
+      "role": "assistant",
+      "content": "Maka **Owlbear Leather Armor** tidak memberikan disadvantage pada Stealth \u2014 B telah menyatu dengan hutan, membuat armor ini menjadi perpanjangan dari dirinya sendiri.\n\n---\n\n## \u2705 **Status Akhir Bee \u2014 Lengkap:**\n\n**Ability Scores & Modifiers:**\n- STR 11 (+0) \u2713\n- DEX 18 (+4) \u2713\n- CON 14 (+2) \u2713\n- INT 13 (+1) \u2713\n- WIS 15 (+2) \u2713\n- CHA 9 (-1) \u2713\n\n**HP:** 38/38\n**AC:** 16 (Owlbear Leather Armor \u2014 no Stealth disadvantage)\n**Initiative:** +4\n**Speed:** 30 ft\n**Proficiency Bonus:** +3\n**Sneak Attack:** 3d6\n\n**Languages:** Common, Sylvan\n\n**ASI Level 4:** +2 DEX (16\u219218)\n\n**Skills:**\n- **Expertise:** Stealth +10, Survival +8, Nature +7, Thieves' Tools +10\n- **Normal:** Perception +5, Investigation +4, Acrobatics +7\n\n**Weapons:**\n- Legam (Shortsword): +7 to hit | 1d6+4 (Magical)\n- Busur Katrol (Longbow): +7 to hit | 1d8+4\n\n**Homebrew Features:**\n- Arcane Sprint (+15 ft speed, no Stealth)\n- Arcane Edge (Legam is permanently magical)\n- Panah Arcanum (Bypass immunity, hanya ke imunitas)\n- Returning Legam\n- Legam Bercahaya (On/Off)\n\n**Equipment:**\n- Owlbear Leather Armor (no Stealth disadvantage)\n- Monster Bracers (1x/LR: reduce physical damage 1d4)\n- Jammer Stone (3 pcs)\n- Liontin Elder\n- Bulu Ungu\n- Mawar (Kuda Betina)\n\n**Consumables:**\n- Panah biasa: 40\n- Panah pelumpuh (DC 11): 30\n- Panah racun (DC 13): 30\n- Gold: 118\n- Silver: 5\n\n---\n\nMasih ada 3 item homebrew yang belum diketahui efeknya:\n1. **Jammer Stone (3 pcs)**\n2. **Liontin Elder**\n3. **Bulu Ungu**\n\nApakah B ingin menjelaskan efeknya? Atau kita langsung mulai petualangan? \ud83c\udfb2"
     }
   ]
 }
