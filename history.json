@@ -2,14 +2,6 @@
   "1506284546172125268": [
     {
       "role": "assistant",
-      "content": "Maka **Owlbear Leather Armor** tidak memberikan disadvantage pada Stealth \u2014 B telah menyatu dengan hutan, membuat armor ini menjadi perpanjangan dari dirinya sendiri.\n\n---\n\n## \u2705 **Status Akhir Bee \u2014 Lengkap:**\n\n**Ability Scores & Modifiers:**\n- STR 11 (+0) \u2713\n- DEX 18 (+4) \u2713\n- CON 14 (+2) \u2713\n- INT 13 (+1) \u2713\n- WIS 15 (+2) \u2713\n- CHA 9 (-1) \u2713\n\n**HP:** 38/38\n**AC:** 16 (Owlbear Leather Armor \u2014 no Stealth disadvantage)\n**Initiative:** +4\n**Speed:** 30 ft\n**Proficiency Bonus:** +3\n**Sneak Attack:** 3d6\n\n**Languages:** Common, Sylvan\n\n**ASI Level 4:** +2 DEX (16\u219218)\n\n**Skills:**\n- **Expertise:** Stealth +10, Survival +8, Nature +7, Thieves' Tools +10\n- **Normal:** Perception +5, Investigation +4, Acrobatics +7\n\n**Weapons:**\n- Legam (Shortsword): +7 to hit | 1d6+4 (Magical)\n- Busur Katrol (Longbow): +7 to hit | 1d8+4\n\n**Homebrew Features:**\n- Arcane Sprint (+15 ft speed, no Stealth)\n- Arcane Edge (Legam is permanently magical)\n- Panah Arcanum (Bypass immunity, hanya ke imunitas)\n- Returning Legam\n- Legam Bercahaya (On/Off)\n\n**Equipment:**\n- Owlbear Leather Armor (no Stealth disadvantage)\n- Monster Bracers (1x/LR: reduce physical damage 1d4)\n- Jammer Stone (3 pcs)\n- Liontin Elder\n- Bulu Ungu\n- Mawar (Kuda Betina)\n\n**Consumables:**\n- Panah biasa: 40\n- Panah pelumpuh (DC 11): 30\n- Panah racun (DC 13): 30\n- Gold: 118\n- Silver: 5\n\n---\n\nMasih ada 3 item homebrew yang belum diketahui efeknya:\n1. **Jammer Stone (3 pcs)**\n2. **Liontin Elder**\n3. **Bulu Ungu**\n\nApakah B ingin menjelaskan efeknya? Atau kita langsung mulai petualangan? \ud83c\udfb2"
-    },
-    {
-      "role": "user",
-      "content": "1. Apa efek dari **Jammer Stone (3 pcs)**?\n2. Apa efek dari **Liontin Elder**?\n3. Apa efek dari **Bulu Ungu**?\n4. Apakah **Mawar** adalah kuda betina? Atau item lain?\n\n---\n\nJawab\n1. Mendistorsi dan membuat noise sihir\n2. Story, nanti dibahas\n3. Story nanti dibahas\n4. Ya, Mawar adalah kuda betina"
-    },
-    {
-      "role": "assistant",
       "content": "# \ud83d\udcca Status Bee \u2014 Final\n\nTerima kasih! Berikut sheet akhir yang sudah lengkap:\n\n---\n\n## \u2705 **Status Bee \u2014 Level 5 Rogue (Scout)**\n\n**Ability Scores:**\n| STR | DEX | CON | INT | WIS | CHA |\n|-----|-----|-----|-----|-----|-----|\n| 11 (+0) | 18 (+4) | 14 (+2) | 13 (+1) | 15 (+2) | 9 (-1) |\n\n**Combat Stats:**\n- **HP:** 31/38\n- **AC:** 16 (Owlbear Leather Armor \u2014 no Stealth disadvantage)\n- **Initiative:** +4\n- **Speed:** 30 ft\n- **Proficiency Bonus:** +3\n- **Sneak Attack:** 3d6\n\n**Languages:** Common, Sylvan\n\n**ASI Level 4:** +2 DEX (16\u219218)\n\n**Skills:**\n- **Expertise:** Stealth +10, Survival +8, Nature +7, Thieves' Tools +10\n- **Normal:** Perception +5, Investigation +4, Acrobatics +7\n\n**Weapons:**\n- Legam (Shortsword): +7 to hit | 1d6+4 (Magical)\n- Busur Katrol (Longbow): +7 to hit | 1d8+4\n\n**Homebrew Features:**\n- Arcane Sprint (+15 ft speed, no Stealth)\n- Arcane Edge (Legam is permanently magical)\n- Panah Arcanum (Bypass immunity, hanya ke imunitas)\n- Returning Legam\n- Legam Bercahaya (On/Off)\n\n**Equipment:**\n- Owlbear Leather Armor (no Stealth disadvantage)\n- Monster Bracers (1x/LR: reduce physical damage 1d4)\n- Jammer Stone (3 pcs) \u2014 Mendistorsi dan membuat noise sihir\n- Liontin Elder \u2014 [Story item, akan dibahas nanti]\n- Bulu Ungu \u2014 [Story item, akan dibahas nanti]\n- Mawar (Kuda Betina)\n\n**Consumables:**\n- Panah biasa: 40\n- Panah pelumpuh (DC 11): 30\n- Panah racun (DC 13): 30\n- Gold: 118\n- Silver: 5\n\n---\n\nSheet sudah lengkap! \ud83c\udfaf\n\nApakah B siap memulai petualangan? Atau ada yang ingin ditambahkan/diubah?"
     },
     {
@@ -35,6 +27,14 @@
     {
       "role": "assistant",
       "content": "Halo! \ud83d\udc4b\n\nKita sudah siap memulai petualangan di **Hutan Veltharis**!\n\nBee sedang bersembunyi di antara kabut tebal saat suara langkah kaki berat terdengar dari arah tenggara. Apa yang ingin B lakukan?\n\n1. **Bersembunyi** \u2014 menghilang di antara pohon dan kabut\n2. **Mengamati** \u2014 mencari posisi tinggi untuk mengintai\n3. **Bersiap bertarung** \u2014 menyiapkan busur atau Legam\n4. **Mundur** \u2014 membawa Mawar menjauh\n5. **Lainnya** \u2014 ide kamu?\n\nPilih atau ceritakan aksimu! \ud83c\udfb2"
+    },
+    {
+      "role": "user",
+      "content": "hai"
+    },
+    {
+      "role": "assistant",
+      "content": "*(DM AI terdiam karena server OpenRouter sedang sangat sibuk. Silakan ketik ulang aksimu.)*"
     }
   ]
 }
