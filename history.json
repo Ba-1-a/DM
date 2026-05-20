@@ -2,14 +2,6 @@
   "1506284546172125268": [
     {
       "role": "assistant",
-      "content": "# \ud83c\udf05 Fajar Menyingsing\n\nKabut pagi masih menggantung rendah di atas hutan, menyelimuti dunia dalam selubung keabu-abuan yang misterius. Embun menempel di atas daun\u2011daun, dan suara burung\u2011burung mulai terdengar samar\u2011samar.\n\nBee terbangun di tempat persembunyiannya semalam, masih bersembunyi di balik batu besar setelah pertarungan dengan goblin\u2011goblin. Tubuhnya terasa pegal, tetapi semangatnya masih menyala.\n\n**Kondisi saat ini:**\n- **HP:** 31/38\n- **Panah biasa:** 39\n- **Panah pelumpuh:** 30\n- **Panah racun:** 30\n- **Jammer Stone:** 3 pcs\n- **Gold:** 118 | **Silver:** 5\n\nMatahari perlahan naik, dan Bee harus memutuskan ke mana ia akan pergi hari ini. Apakah ia ingin:\n1. **Menjelajahi hutan** lebih dalam\n2. **Kembali ke kota** terdekat\n3. **Beristirahat** untuk memulihkan HP\n4. **Mencari jejak** goblin\u2011goblin semalam\n\nApa yang ingin Bee lakukan?"
-    },
-    {
-      "role": "user",
-      "content": "memulai hari"
-    },
-    {
-      "role": "assistant",
       "content": "# \ud83c\udf05 Fajar Menyingsing\n\nKabut pagi masih menggantung rendah di atas hutan, menyelimuti dunian dalam selubung keabu-abuan yang misterius. Embun menempel di atas daun\u2011daun, dan suara burung\u2011burung mulai terdengar samar\u2011samar.\n\nBee terbangun di tempat persembunyiannya semalam, masih bersembunyi di balik batu besar setelah pertarungan dengan goblin\u2011goblin. Tubuhnya terasa pegal, tetapi semangatnya masih menyala.\n\n**Kondisi saat ini:**\n- **HP:** 31/38\n- **Panah biasa:** 39\n- **Panah pelumpuh:** 30\n- **Panah racun:** 30\n- **Jammer Stone:** 3 pcs\n- **Gold:** 118 | **Silver:** 5\n\nMatahari perlahan naik, dan Bee harus memutuskan ke mana ia akan pergi hari ini. Apakah ia ingin:\n1. **Menjelajahi hutan** lebih dalam\n2. **Kembali ke kota** terdekat\n3. **Beristirahat** untuk memulihkan HP\n4. **Mencari jejak** goblin\u2011goblin semalam\n\nApa yang ingin Bee lakukan?"
     },
     {
@@ -35,6 +27,14 @@
     {
       "role": "assistant",
       "content": "# \ud83d\udcd6 Rulebook OWL\n\nOWL menggunakan **D&D 5th Edition (5e)** sebagai rulebook utama, dengan beberapa penyesuaian homebrew yang sudah tercantum di sheet karaktermu.\n\n**Sumber utama:**\n- **Player's Handbook (PHB)** \u2014 aturan dasar\n- **Dungeon Master's Guide (DMG)** \u2014 panduan DM\n- **Monster Manual (MM)** \u2014 stat monster\n\n**Homebrew yang berlaku:**\n- Arcane Sprint (+15 ft speed, no Stealth)\n- Arcane Edge (Legam is permanently magical)\n- Panah Arcanum (Bypass immunity, hanya ke imunitas, jika melawan resistant tetap dianggap physical)\n- Returning Legam\n- Legam Bercahaya (On/Off)\n\nJika ada pertanyaan tentang aturan spesifik, silakan tanyakan! \ud83c\udfb2"
+    },
+    {
+      "role": "user",
+      "content": "lihat lembar karakter lengkap ku"
+    },
+    {
+      "role": "assistant",
+      "content": "# \ud83d\udccb Lembar Karakter Bee\n\nBaik, aku sudah melihat lembar karakter lengkapmu. Berikut ringkasannya:\n\n---\n\n**B (Bee)**\n- **Race:** Standard Human\n- **Class:** Rogue (Scout)\n- **Level:** 5\n- **HP:** 31/38\n- **AC:** 16\n- **Initiative:** +4\n- **Speed:** 30 ft\n- **Proficiency Bonus:** +3\n\n**Stats:**\n| STR | DEX | CON | INT | WIS | CHA |\n|-----|-----|-----|-----|-----|-----|\n| 11 | 18 | 14 | 13 | 15 | 9 |\n| +0 | +4 | +2 | +1 | +2 | -1 |\n\n**Skills:**\n- **Expertise:** Stealth +10, Survival +8, Nature +7, Thieves' Tools +10\n- **Normal:** Perception +5, Investigation +4, Acrobatics +7\n\n**Combat:**\n- **Main Weapon:** Legam (Shortsword) | +7 to hit | 1d6+4 (Magical)\n- **Ranged:** Busur Katrol (Longbow) | +7 to hit | 1d8+4\n- **Sneak Attack:** 3d6\n\n**Homebrew Features:**\n- Arcane Sprint (+15 ft speed, no Stealth)\n- Arcane Edge (Legam is permanently magical)\n- Panah Arcanum (Bypass immunity, hanya ke imunitas, jika melawan resistant tetap dianggap physical)\n- Returning Legam\n- Legam Bercahaya (On/Off)\n\n**Equipment:**\n- Owlbear Leather Armor\n- Monster Bracers (1x/LR: reduce physical damage 1d4)\n- Jammer Stone (3 pcs)\n- Liontin Elder\n- Bulu Ungu\n- Mawar (Kuda Betina)\n\n**Consumables:**\n- Panah biasa: 40\n- Panah pelumpuh (DC 11): 30\n- Panah racun (DC 13): 30\n- Gold: 118\n- Silver: 5\n\n---\n\nApakah ada yang ingin kubantu? Misalnya:\n1. **Penjelasan mekanik** tentang fitur homebrew\n2. **Strategi combat** yang cocok untuk Bee\n3. **Rekomendasi spell** atau ability\n4. **Lainnya**\n\nSilakan tanyakan! \ud83c\udfb2"
     }
   ]
 }
