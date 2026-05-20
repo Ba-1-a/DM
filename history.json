@@ -2,14 +2,6 @@
   "1506284546172125268": [
     {
       "role": "assistant",
-      "content": "Bee menggunakan Cunning Action untuk bersembunyi lagi. Dengan gerakan yang cepat dan sunyi, ia meluncur ke balik batu besar di dekatnya, memanfaatkan lingkungan untuk memecah garis pandang dari goblin\u2011goblin yang sedang mencari\u2011cari.  \n\nJika kamu ingin mencoba serangan diam\u2011diam (Sneak Attack) setelah bersembunyi, aku bisa memicu mekanik berikut:  \n\n[ROLL: Stealth Check, 1d20+10]  \n\natau  \n\n[ROLL: Attack Roll (Legam), 1d20+7]  \n\nPilih senjata yang ingin kamu gunakan, dan aku akan melanjutkan narasi sesuai hasilnya."
-    },
-    {
-      "role": "user",
-      "content": "[SISTEM: Hasil dadu Stealth Check = 13. Langsung lanjutkan narasi konsekuensi secara dramatis!]"
-    },
-    {
-      "role": "assistant",
       "content": "Bee bergerak seperti bayangan yang hidup, meluncur di antara celah\u2011celah batu dan semak belukar. Dengan skor Stealth 13, ia berhasil menyamarkan kehadirannya dari goblin\u2011goblin yang sedang waspada. Mata mereka menyapu area sekitar, tetapi tidak menemukan apa pun selain angin malam yang berhembus.  \n\nKini Bee berada dalam posisi sempurna untuk serangan diam\u2011diam. Jika kamu ingin mencoba serangan diam\u2011diam (Sneak Attack) setelah bersembunyi, aku bisa memicu mekanik berikut:  \n\n[ROLL: Attack Roll (Legam), 1d20+7]  \n\natau  \n\n[ROLL: Stealth Check, 1d20+10]  \n\nPilih senjata yang ingin kamu gunakan, dan aku akan melanjutkan narasi sesuai hasilnya."
     },
     {
@@ -35,6 +27,14 @@
     {
       "role": "assistant",
       "content": "# \ud83c\udf05 Fajar Menyingsing\n\nKabut pagi masih menggantung rendah di atas hutan, menyelimuti dunian dalam selubung keabu-abuan yang misterius. Embun menempel di atas daun\u2011daun, dan suara burung\u2011burung mulai terdengar samar\u2011samar.\n\nBee terbangun di tempat persembunyiannya semalam, masih bersembunyi di balik batu besar setelah pertarungan dengan goblin\u2011goblin. Tubuhnya terasa pegal, tetapi semangatnya masih menyala.\n\n**Kondisi saat ini:**\n- **HP:** 31/38\n- **Panah biasa:** 39\n- **Panah pelumpuh:** 30\n- **Panah racun:** 30\n- **Jammer Stone:** 3 pcs\n- **Gold:** 118 | **Silver:** 5\n\nMatahari perlahan naik, dan Bee harus memutuskan ke mana ia akan pergi hari ini. Apakah ia ingin:\n1. **Menjelajahi hutan** lebih dalam\n2. **Kembali ke kota** terdekat\n3. **Beristirahat** untuk memulihkan HP\n4. **Mencari jejak** goblin\u2011goblin semalam\n\nApa yang ingin Bee lakukan?"
+    },
+    {
+      "role": "user",
+      "content": "3"
+    },
+    {
+      "role": "assistant",
+      "content": "# \ud83c\udf3f Istirahat Siang\n\nBee menemukan sebuah gua kecil yang tersembunyi di balik airjungan lumut. Di dalamnya, ia melepas ranselnya dan duduk bersandar di dinding batu yang dingin. Suasana hening, hanya suara tetesan air yang berirama.\n\nIa memutuskan untuk beristirahat sejenak, membiarkan tubuhnya memulihkan tenaga.\n\n<roll_dice  \n  formula=\"1d8+2\"  \n  fallback=\"7\"  \n  />  \n\nSetelah beristirahat, Bee merasa lebih segar. Ia memeriksa peralatannya:\n- **HP:** 38/38 (penuh!)\n- **Panah biasa:** 39\n- **Panah pelumpuh:** 30\n- **Panah racun:** 30\n\nSekarang, Bee harus memutuskan langkah selanjutnya:\n1. **Menjelajahi hutan** lebih dalam\n2. **Kembali ke kota** terdekat\n3. **Mencari jejak** goblin\u2011goblin semalam\n4. **Mencari sumber air** atau makanan\n\nApa yang ingin Bee lakukan?"
     }
   ]
 }
