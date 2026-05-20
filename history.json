@@ -2,14 +2,6 @@
   "1506284546172125268": [
     {
       "role": "assistant",
-      "content": "# \ud83d\udcca Status Bee \u2014 Final\n\nTerima kasih! Berikut sheet akhir yang sudah lengkap:\n\n---\n\n## \u2705 **Status Bee \u2014 Level 5 Rogue (Scout)**\n\n**Ability Scores:**\n| STR | DEX | CON | INT | WIS | CHA |\n|-----|-----|-----|-----|-----|-----|\n| 11 (+0) | 18 (+4) | 14 (+2) | 13 (+1) | 15 (+2) | 9 (-1) |\n\n**Combat Stats:**\n- **HP:** 31/38\n- **AC:** 16 (Owlbear Leather Armor \u2014 no Stealth disadvantage)\n- **Initiative:** +4\n- **Speed:** 30 ft\n- **Proficiency Bonus:** +3\n- **Sneak Attack:** 3d6\n\n**Languages:** Common, Sylvan\n\n**ASI Level 4:** +2 DEX (16\u219218)\n\n**Skills:**\n- **Expertise:** Stealth +10, Survival +8, Nature +7, Thieves' Tools +10\n- **Normal:** Perception +5, Investigation +4, Acrobatics +7\n\n**Weapons:**\n- Legam (Shortsword): +7 to hit | 1d6+4 (Magical)\n- Busur Katrol (Longbow): +7 to hit | 1d8+4\n\n**Homebrew Features:**\n- Arcane Sprint (+15 ft speed, no Stealth)\n- Arcane Edge (Legam is permanently magical)\n- Panah Arcanum (Bypass immunity, hanya ke imunitas)\n- Returning Legam\n- Legam Bercahaya (On/Off)\n\n**Equipment:**\n- Owlbear Leather Armor (no Stealth disadvantage)\n- Monster Bracers (1x/LR: reduce physical damage 1d4)\n- Jammer Stone (3 pcs) \u2014 Mendistorsi dan membuat noise sihir\n- Liontin Elder \u2014 [Story item, akan dibahas nanti]\n- Bulu Ungu \u2014 [Story item, akan dibahas nanti]\n- Mawar (Kuda Betina)\n\n**Consumables:**\n- Panah biasa: 40\n- Panah pelumpuh (DC 11): 30\n- Panah racun (DC 13): 30\n- Gold: 118\n- Silver: 5\n\n---\n\nSheet sudah lengkap! \ud83c\udfaf\n\nApakah B siap memulai petualangan? Atau ada yang ingin ditambahkan/diubah?"
-    },
-    {
-      "role": "user",
-      "content": "Gas"
-    },
-    {
-      "role": "assistant",
       "content": "# \ud83c\udf32 Hutan Veltharis \u2014 Pagi Buta\n\n---\n\nFajar belum menyentuh kanopi.\n\nKabut tebal menyelimuti tanah hutan seperti kain kafan putih yang tak pernah diangkat. Di antara pohon-pohon oak dan elm raksasa yang batangnya sebesar menara kecil, cahaya matahari hanyalah bisikan \u2014 samar, redup, dan jauh.\n\n**Bee** bergerak tanpa suara.\n\nLangkah kakinya jatuh di atas lapisan daun busuk dan lumut basah tanpa menghasilkan suara apa pun. Owlbear Leather Armor yang melekat di tubuhnya \u2014 kulit beruang hutan yang telah dikeringkan dan diolah \u2014 bergerak seolah menjadi bagian dari dirinya. Tidak ada gesekan. Tidak ada derit. Hanya keheningan.\n\nDi punggungnya, **Busur Katrol** tergantung diam. Di pinggangnya, **Legam** \u2014 pedang pendeknya yang bercahaya redup \u2014 terhunus dalam sarung kulit. Di saku-saku jubahnya, tiga batu **Jammer Stone** terasa dingin dan berat. **Liontin Elder** berdetak pelan di dadanya, hangat seperti jantung kecil yang tak pernah berhenti. **Bulu Ungu** terselip di balik ikat pinggangnya, berkilau samar dalam kegelapan.\n\nDan di belakangnya, **Mawar** \u2014 kuda betina berkelabu gelap \u2014 mengikuti setia, langkahnya diatur agar selaras dengan ritme hutan.\n\nB berhenti.\n\nTelinga yang terlatih menangkap sesuatu.\n\n**Suara.**\n\nBukan suara hutan. Bukan gesekan ranting, bukan kicauan burung pagi, bukan desiran angin.\n\nIni adalah suara **langkah kaki**. Banyak. Teratur. Dan berat.\n\nDari arah tenggara, sekitar 200 yard, sesuatu \u2014 atau sekumpulan sesuatu \u2014 sedang bergerak menembus kabut menuju posisinya.\n\nB menoleh ke belakang ke Mawar. Kuda betina itu menundukkan kepalanya, telinga terangkat, hidung menghembuskan napas pelan. Mawar juga merasakan mereka.\n\nKabut masih tebal. Visibilitas terbatas \u2014 mungkin 60 kaki sebelum segala sesuatu larut dalam putih.\n\nB memiliki beberapa pilihan:\n\n1. **Bersembunyi** \u2014 menggunakan Stealth untuk menghilang di antara pohon dan kabut\n2. **Mengamati** \u2014 mencari posisi tinggi atau tempat strategis untuk mengintai\n3. **Bersiap bertarung** \u2014 menyiapkan busur atau Legam\n4. **Mundur** \u2014 membawa Mawar menjauh dari sumber suara\n5. **Lainnya** \u2014 apa pun yang dipikirkan B\n\n---\n\n*Apa yang ingin B lakukan?* \ud83c\udfb2"
     },
     {
@@ -35,6 +27,14 @@
     {
       "role": "assistant",
       "content": "*(DM AI terdiam karena server OpenRouter sedang sangat sibuk. Silakan ketik ulang aksimu.)*"
+    },
+    {
+      "role": "user",
+      "content": "Scout Stealth suara langkah itu"
+    },
+    {
+      "role": "assistant",
+      "content": "Bee merespons dengan insting seorang Scout yang terlatih.\n\nTanpa ragu, B merosot ke posisi rendah, tubuhnya menyatu dengan akar pohon oak raksasa yang menjulang di sampingnya. Jari-jari yang gesit menarik Mawar perlahan \u2014 kuda betina itu, terbiasa dengan situasi seperti ini, menundukkan kepatuhan dan bergerak tanpa suara ke balik semak tebal.\n\nB menarik napas dalam, lalu menghembuskannya perlahan.\n\nKabut menjadi sekutu.\n\nDalam hitungan detik, Bee menghilang. Bukan secara literal \u2014 tetapi kehadirannya memudar begitu dalam ke dalam lanskap hutan hingga bahkan mata yang paling tajam pun akan kesulitan menembus ilusi itu. Daun-daun kering di sekitarnya tidak bergerak. Tidak ada jejak. Tidak ada suara.\n\nHanya kabut yang bergulung.\n\nDan dari arah tenggara, suara langkah kaki itu semakin dekat.\n\n*Duduk. Menunggu. Mengamati.*\n\n---\n\n[ROLL: Stealth Check, 1d20+10]"
     }
   ]
 }
