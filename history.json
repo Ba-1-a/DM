@@ -2,14 +2,6 @@
   "1506284546172125268": [
     {
       "role": "assistant",
-      "content": "Bee bergerak seperti bayangan yang hidup, meluncur di antara celah\u2011celah batu dan semak belukar. Dengan skor Stealth 13, ia berhasil menyamarkan kehadirannya dari goblin\u2011goblin yang sedang waspada. Mata mereka menyapu area sekitar, tetapi tidak menemukan apa pun selain angin malam yang berhembus.  \n\nKini Bee berada dalam posisi sempurna untuk serangan diam\u2011diam. Jika kamu ingin mencoba serangan diam\u2011diam (Sneak Attack) setelah bersembunyi, aku bisa memicu mekanik berikut:  \n\n[ROLL: Attack Roll (Legam), 1d20+7]  \n\natau  \n\n[ROLL: Stealth Check, 1d20+10]  \n\nPilih senjata yang ingin kamu gunakan, dan aku akan melanjutkan narasi sesuai hasilnya."
-    },
-    {
-      "role": "user",
-      "content": "aku serang menggunakan busur memanfaatkan sneak attack"
-    },
-    {
-      "role": "assistant",
       "content": "<roll_dice  \n  formula=\"1d20+7\"  \n  fallback=\"15\"  \n  />  \n\n<roll_dice  \n  formula=\"1d8+4\"  \n  fallback=\"9\"  \n  />  \n\n<roll_dice  \n  formula=\"3d6\"  \n  fallback=\"12\"  \n  />  \n\nDengan skor serangan 15, panah Bee melesat dari balik batu besar, menembus udara malam dengan suara berdesir. Panah itu mengenai bahu goblin yang sedang lengah, dan dengan kekuatan Sneak Attack, luka itu menjadi lebih dalam. Goblin tersebut berteriak kesakitan, terjatuh ke tanah, sementara goblin\u2011goblin lainnya panik dan mulai berteriak memperingatkan yang lain.  \n\nBee kini harus memutuskan apakah ingin terus menyerang atau mundur untuk menghindari kepungan. Jika ia ingin mencoba serangan lain atau mundur, aku bisa memicu mekanik berikut:  \n\n[ROLL: Attack Roll (Busur Katrol), 1d20+7]  \n\natau  \n\n[ROLL: Stealth Check, 1d20+10]"
     },
     {
@@ -35,6 +27,14 @@
     {
       "role": "assistant",
       "content": "# \ud83c\udf3f Istirahat Siang\n\nBee menemukan sebuah gua kecil yang tersembunyi di balik airjungan lumut. Di dalamnya, ia melepas ranselnya dan duduk bersandar di dinding batu yang dingin. Suasana hening, hanya suara tetesan air yang berirama.\n\nIa memutuskan untuk beristirahat sejenak, membiarkan tubuhnya memulihkan tenaga.\n\n<roll_dice  \n  formula=\"1d8+2\"  \n  fallback=\"7\"  \n  />  \n\nSetelah beristirahat, Bee merasa lebih segar. Ia memeriksa peralatannya:\n- **HP:** 38/38 (penuh!)\n- **Panah biasa:** 39\n- **Panah pelumpuh:** 30\n- **Panah racun:** 30\n\nSekarang, Bee harus memutuskan langkah selanjutnya:\n1. **Menjelajahi hutan** lebih dalam\n2. **Kembali ke kota** terdekat\n3. **Mencari jejak** goblin\u2011goblin semalam\n4. **Mencari sumber air** atau makanan\n\nApa yang ingin Bee lakukan?"
+    },
+    {
+      "role": "user",
+      "content": "DM boleh nanya?"
+    },
+    {
+      "role": "assistant",
+      "content": "# \ud83c\udf3f Tentu, Silakan!\n\nSebagai Dungeon Master, aku bisa bertanya untuk membantu Bee membuat keputusan. Berikut beberapa pertanyaan yang bisa membantu:\n\n1. **Tujuan utama Bee:** Apakah Bee memiliki misi atau tujuan spesifik yang sedang dikejar? Atau ia hanya menjelajah demi petualangan?\n\n2. **Latar belakang:** Apakah Bee memiliki latar belakang tertentu yang memengaruhi tindakannya? Misalnya, apakah ia sedang melarikan diri dari sesuatu, atau mencari seseorang?\n\n3. **Hubungan dengan goblin:** Apakah Bee memiliki alasan khusus untuk menghindari atau mengejar goblin\u2011goblin semalam?\n\n4. **Kondisi mental:** Bagaimana perasaan Bee saat ini? Apakah ia merasa waspada, penasaran, atau mungkin sedikit takut?\n\n5. **Prioritas:** Apakah Bee lebih memprioritaskan keselamatan, eksplorasi, atau mungkin mencari harta karun?\n\nJawab salah satu atau semua pertanyaan ini, dan aku akan menyesuaikan narasi serta pilihan yang tersedia untuk Bee! \ud83c\udfb2"
     }
   ]
 }
