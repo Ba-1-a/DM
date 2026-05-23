@@ -2,30 +2,6 @@
   "1506284546172125268": [
     {
       "role": "assistant",
-      "content": "# \ud83c\udf32 Hutan Veltharis \u2014 Pagi Buta\n\n---\n\nFajar belum menyentuh kanopi.\n\nKabut tebal menyelimuti tanah hutan seperti kain kafan putih yang tak pernah diangkat. Di antara pohon-pohon oak dan elm raksasa yang batangnya sebesar menara kecil, cahaya matahari hanyalah bisikan \u2014 samar, redup, dan jauh.\n\n**Bee** bergerak tanpa suara.\n\nLangkah kakinya jatuh di atas lapisan daun busuk dan lumut basah tanpa menghasilkan suara apa pun. Owlbear Leather Armor yang melekat di tubuhnya \u2014 kulit beruang hutan yang telah dikeringkan dan diolah \u2014 bergerak seolah menjadi bagian dari dirinya. Tidak ada gesekan. Tidak ada derit. Hanya keheningan.\n\nDi punggungnya, **Busur Katrol** tergantung diam. Di pinggangnya, **Legam** \u2014 pedang pendeknya yang bercahaya redup \u2014 terhunus dalam sarung kulit. Di saku-saku jubahnya, tiga batu **Jammer Stone** terasa dingin dan berat. **Liontin Elder** berdetak pelan di dadanya, hangat seperti jantung kecil yang tak pernah berhenti. **Bulu Ungu** terselip di balik ikat pinggangnya, berkilau samar dalam kegelapan.\n\nDan di belakangnya, **Mawar** \u2014 kuda betina berkelabu gelap \u2014 mengikuti setia, langkahnya diatur agar selaras dengan ritme hutan.\n\nB berhenti.\n\nTelinga yang terlatih menangkap sesuatu.\n\n**Suara.**\n\nBukan suara hutan. Bukan gesekan ranting, bukan kicauan burung pagi, bukan desiran angin.\n\nIni adalah suara **langkah kaki**. Banyak. Teratur. Dan berat.\n\nDari arah tenggara, sekitar 200 yard, sesuatu \u2014 atau sekumpulan sesuatu \u2014 sedang bergerak menembus kabut menuju posisinya.\n\nB menoleh ke belakang ke Mawar. Kuda betina itu menundukkan kepalanya, telinga terangkat, hidung menghembuskan napas pelan. Mawar juga merasakan mereka.\n\nKabut masih tebal. Visibilitas terbatas \u2014 mungkin 60 kaki sebelum segala sesuatu larut dalam putih.\n\nB memiliki beberapa pilihan:\n\n1. **Bersembunyi** \u2014 menggunakan Stealth untuk menghilang di antara pohon dan kabut\n2. **Mengamati** \u2014 mencari posisi tinggi atau tempat strategis untuk mengintai\n3. **Bersiap bertarung** \u2014 menyiapkan busur atau Legam\n4. **Mundur** \u2014 membawa Mawar menjauh dari sumber suara\n5. **Lainnya** \u2014 apa pun yang dipikirkan B\n\n---\n\n*Apa yang ingin B lakukan?* \ud83c\udfb2"
-    },
-    {
-      "role": "user",
-      "content": "Ayo kita mulai"
-    },
-    {
-      "role": "assistant",
-      "content": "# \ud83c\udf32 Hutan Veltharis \u2014 Pagi Buta\n\n---\n\nFajar belum menyentuh kanopi.\n\nKabut tebal menyelimuti tanah hutan seperti kain kafan putih yang tak pernah diangkat. Di antara pohon-pohon oak dan elm raksasa yang batangnya sebesar menara kecil, cahaya matahari hanyalah bisikan \u2014 samar, redup, dan jauh.\n\n**Bee** bergerak tanpa suara.\n\nLangkah kakinya jatuh di atas lapisan daun busuk dan lumut basah tanpa menghasilkan suara apa pun. Owlbear Leather Armor yang melekat di tubuhnya \u2014 kulit beruang hutan yang telah dikeringkan dan diolah \u2014 bergerak seolah menjadi bagian dari dirinya. Tidak ada gesekan. Tidak ada derit. Hanya keheningan.\n\nDi punggungnya, **Busur Katrol** tergantung diam. Di pinggangnya, **Legam** \u2014 pedang pendeknya yang bercahaya redup \u2014 terhunus dalam sarung kulit. Di saku-saku jubahnya, tiga batu **Jammer Stone** terasa dingin dan berat. **Liontin Elder** berdetak pelan di dadanya, hangat seperti jantung kecil yang tak pernah berhenti. **Bulu Ungu** terselip di balik ikat pinggangnya, berkilau samar dalam kegelapan.\n\nDan di belakangnya, **Mawar** \u2014 kuda betina berkelabu gelap \u2014 mengikuti setia, langkahnya diatur agar selaras dengan ritme hutan.\n\nB berhenti.\n\nTelinga yang terlatih menangkap sesuatu.\n\n**Suara.**\n\nBukan suara hutan. Bukan gesekan ranting, bukan kicauan burung pagi, bukan desiran angin.\n\nIni adalah suara **langkah kaki**. Banyak. Teratur. Dan berat.\n\nDari arah tenggara, sekitar 200 yard, sesuatu \u2014 atau sekumpulan sesuatu \u2014 sedang bergerak menembus kabut menuju posisinya.\n\nB menoleh ke belakang ke Mawar. Kuda betina itu menundukkan kepalanya, telinga terangkat, hidung menghembuskan napas pelan. Mawar juga merasakan mereka.\n\nKabut masih tebal. Visibilitas terbatas \u2014 mungkin 60 kaki sebelum segala sesuatu larut dalam putih.\n\nB memiliki beberapa pilihan:\n\n1. **Bersembunyi** \u2014 menggunakan Stealth untuk menihlangkan diri di antara pohon dan kabut\n2. **Mengamati** \u2014 mencari posisi tinggi atau tempat strategik untuk mengintai\n3. **Bersiap bertarung** \u2014 menyiapkan busur atau Legam\n4. **Mundur** \u2014 membawa Mawar menjauh dari sumber suara\n5. **Lainnya** \u2014 apa pun yang dipikirkan B\n\n---\n\n*Apa yang ingin B lakukan?* \ud83c\udfb2"
-    },
-    {
-      "role": "user",
-      "content": "hallo"
-    },
-    {
-      "role": "assistant",
-      "content": "Halo! \ud83d\udc4b\n\nKita sudah siap memulai petualangan di **Hutan Veltharis**!\n\nBee sedang bersembunyi di antara kabut tebal saat suara langkah kaki berat terdengar dari arah tenggara. Apa yang ingin B lakukan?\n\n1. **Bersembunyi** \u2014 menghilang di antara pohon dan kabut\n2. **Mengamati** \u2014 mencari posisi tinggi untuk mengintai\n3. **Bersiap bertarung** \u2014 menyiapkan busur atau Legam\n4. **Mundur** \u2014 membawa Mawar menjauh\n5. **Lainnya** \u2014 ide kamu?\n\nPilih atau ceritakan aksimu! \ud83c\udfb2"
-    },
-    {
-      "role": "user",
-      "content": "hai"
-    },
-    {
-      "role": "assistant",
       "content": "*(DM AI terdiam karena server OpenRouter sedang sangat sibuk. Silakan ketik ulang aksimu.)*"
     },
     {
@@ -51,6 +27,14 @@
     {
       "role": "assistant",
       "content": "**Natural 20.**\n\nSempurna.\n\nBee tidak hanya bersembunyi \u2014 B *menjadi* hutan itu sendiri.\n\nKabut tebal menyelimuti tubuhnya seperti selimut yang hidup, setiap hembusan angin menyapu sisa-sisa kehadiran manusia yang mungkin tersisa. Mawar, kuda setia yang telah menempuh ratusan mil bersama tuannya, membeku di balik semak \u2014 napasnya pelan, matanya setengah tertutup, seolah bahkan binatang itu pun memilih untuk berpura-pura menjadi batu.\n\nDan kemudian mereka muncul.\n\nDua sosok besar melangkah keluar dari kabut. **Bugbear.** Masing-masing setinggi tujuh kaki, berbulu lebat, membawa kapak perang yang masih bernoda darah kering. Mata kuning mereka menyapu hutan dengan waspada \u2014 tetapi kabut terlalu tebal, dan Bee terlalu *tak terlihat*.\n\nYang satu menggonggong dalam bahasa kasar: *\"Bau darah... tapi tidak ada mayat.\"*\n\nYang lain mengendus udara, menggeram pelan.\n\nMereka berjalan tepat melewati pohon tempat B bersembunyi.\n\nTiga kaki. Dua kaki. Satu kaki.\n\nBee tidak bernapas.\n\nDan mereka berlalu... menghilang ke dalam kabut di arah barat.\n\nBee menunggu tiga hitungan jantung sebelum akhirnya menghembuskan napas.\n\n---\n\n**Situasi:**\n- Dua Bugbear bergerak ke arah barat\n- B dan Mawar aman, posisi tersembunyi\n- Kabut masih tebal \u2014 visibilitas rendah\n\n**Apa yang ingin B lakukan?**\n1. **Mengikuti** \u2014 melacak jejak Bugbear dari jarak aman\n2. **Menyelidiki area** \u2014 mencari tahu asal bau darah yang mereka sebut\n3. **Mundur** \u2014 menjauh dari jalur Bugbear\n4. **Lainnya?**"
+    },
+    {
+      "role": "user",
+      "content": "hai"
+    },
+    {
+      "role": "assistant",
+      "content": "Hai! \ud83d\udc4b\n\nSepertinya pesanmu terpotong atau belum lengkap. Ada yang bisa Bee lakukan?\n\nKita sedang di tengah sesi DM \u2014 dua Bugbear baru saja berlalu, dan B masih bersembunyi di balik pohon oak dengan Mawar.\n\nSilakan lanjutkan aksimu! \ud83c\udfb2"
     }
   ]
 }
