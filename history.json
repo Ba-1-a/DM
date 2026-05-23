@@ -2,14 +2,6 @@
   "1506284546172125268": [
     {
       "role": "assistant",
-      "content": "*(DM AI terdiam karena server OpenRouter sedang sangat sibuk. Silakan ketik ulang aksimu.)*"
-    },
-    {
-      "role": "user",
-      "content": "Scout Stealth suara langkah itu"
-    },
-    {
-      "role": "assistant",
       "content": "Bee merespons dengan insting seorang Scout yang terlatih.\n\nTanpa ragu, B merosot ke posisi rendah, tubuhnya menyatu dengan akar pohon oak raksasa yang menjulang di sampingnya. Jari-jari yang gesit menarik Mawar perlahan \u2014 kuda betina itu, terbiasa dengan situasi seperti ini, menundukkan kepatuhan dan bergerak tanpa suara ke balik semak tebal.\n\nB menarik napas dalam, lalu menghembuskannya perlahan.\n\nKabut menjadi sekutu.\n\nDalam hitungan detik, Bee menghilang. Bukan secara literal \u2014 tetapi kehadirannya memudar begitu dalam ke dalam lanskap hutan hingga bahkan mata yang paling tajam pun akan kesulitan menembus ilusi itu. Daun-daun kering di sekitarnya tidak bergerak. Tidak ada jejak. Tidak ada suara.\n\nHanya kabut yang bergulung.\n\nDan dari arah tenggara, suara langkah kaki itu semakin dekat.\n\n*Duduk. Menunggu. Mengamati.*\n\n---\n\n[ROLL: Stealth Check, 1d20+10]"
     },
     {
@@ -35,6 +27,14 @@
     {
       "role": "assistant",
       "content": "Hai! \ud83d\udc4b\n\nSepertinya pesanmu terpotong atau belum lengkap. Ada yang bisa Bee lakukan?\n\nKita sedang di tengah sesi DM \u2014 dua Bugbear baru saja berlalu, dan B masih bersembunyi di balik pohon oak dengan Mawar.\n\nSilakan lanjutkan aksimu! \ud83c\udfb2"
+    },
+    {
+      "role": "user",
+      "content": "hai"
+    },
+    {
+      "role": "assistant",
+      "content": "Hai juga! \ud83d\ude04\n\nKita masih di tengah petualangan, Bee! Dua Bugbear baru saja lewat, dan B masih tersembunyi di balik pohon oak.\n\nMau ngapain selanjutnya?\n\n1. **Ikuti** Bugbear dari jarak aman\n2. **Selidiki** asal bau darah\n3. **Mundur** dari area ini\n4. **Aksi lain** (tulis sendiri)\n\nTinggal pilih atau ketik aksimu! \ud83c\udfb2"
     }
   ]
 }
